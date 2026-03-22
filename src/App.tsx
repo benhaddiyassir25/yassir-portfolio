@@ -4,8 +4,8 @@ import Photography from "./pages/Photography";
 
 export default function App() {
   return (
-    <BrowserRouter>
-      <Routes>
+<BrowserRouter basename="/yassir-portfolio">
+  <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/photography" element={<Photography />} />
       </Routes>
