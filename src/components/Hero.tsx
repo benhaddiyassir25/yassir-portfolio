@@ -14,8 +14,7 @@ audioRef.current = new Audio('/yassir-portfolio/welcomeToPortfolio.mp3');    }
       if (error.name === 'NotAllowedError') {
         console.warn("Autoplay blocked: User interaction required.");
       } else if (error.name === 'NotFoundError') {
-console.error("Audio file not found at /yassir-portfolio/welcomeToPortfolio.mp3");      }
-    });
+console.error("Audio file not found at /yassir-portfolio/welcomeToPortfolio.mp3");    });
   };
 
   return (
