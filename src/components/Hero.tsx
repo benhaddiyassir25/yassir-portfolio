@@ -7,16 +7,14 @@ export default function Hero() {
 
   const playIntro = () => {
     if (!audioRef.current) {
-      audioRef.current = new Audio('./welcomeToPortfolio.mp3');
-    }
+audioRef.current = new Audio('/yassir-portfolio/welcomeToPortfolio.mp3');    }
     
     audioRef.current.play().catch(error => {
       console.error("Audio playback failed:", error.message || error);
       if (error.name === 'NotAllowedError') {
         console.warn("Autoplay blocked: User interaction required.");
       } else if (error.name === 'NotFoundError') {
-        console.error("Audio file not found at ./welcomeToPortfolio.mp3");
-      }
+console.error("Audio file not found at /yassir-portfolio/welcomeToPortfolio.mp3");      }
     });
   };
 
