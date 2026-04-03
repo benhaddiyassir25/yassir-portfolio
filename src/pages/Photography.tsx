@@ -1,6 +1,6 @@
 import { motion } from "motion/react";
 import { Link } from "react-router-dom";
-import { ArrowLeft, Camera } from "lucide-react";
+import { ArrowLeft } from "lucide-react";
 
 const photos = [
   { id: 1, url: "/yassir-portfolio/J1.jpeg" },
@@ -17,7 +17,12 @@ const photos = [
   { id: 12, url: "/yassir-portfolio/SATCAT.jpeg" },
   { id: 13, url: "/yassir-portfolio/JGUN.jpeg" },
   { id: 14, url: "/yassir-portfolio/CatPic.jpeg" },
-  { id: 15, url: "/yassir-portfolio/DESERT.jpeg" }
+  { id: 15, url: "/yassir-portfolio/DESERT.jpeg" },
+  { id: 16, url: "/yassir-portfolio/MIDTERMSUBMISSION.jpg" },
+  { id: 17, url: "/yassir-portfolio/BW Soft contrast.jpg" },
+  { id: 18, url: "/yassir-portfolio/IMG_0855 2.jpeg" },
+  { id: 19, url: "/yassir-portfolio/IMG_6499 2.jpeg" },
+  { id: 20, url: "/yassir-portfolio/Desert pic 2.jpg" }
 ];
 
 export default function Photography() {
