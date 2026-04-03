@@ -6,15 +6,15 @@ const photos = [
   { id: 1, url: "/yassir-portfolio/J1.jpeg" },
   { id: 2, url: "/yassir-portfolio/J2.jpeg" },
   { id: 3, url: "/yassir-portfolio/J3.jpeg" },
-  { id: 4, url: "/yassir-portfolio/PLANE.jpg" },
-  { id: 5, url: "/yassir-portfolio/PLANE2.jpg" },
-  { id: 6, url: "/yassir-portfolio/PLANE3.jpg" },
-  { id: 7, url: "/yassir-portfolio/4.jpeg" },
-  { id: 8, url: "/yassir-portfolio/17.jpeg" },
-  { id: 9, url: "/yassir-portfolio/CAR1.jpg" },
-  { id: 10, url: "/yassir-portfolio/work10.jpg" },
-  { id: 11, url: "/yassir-portfolio/work11.jpg" },
-  { id: 12, url: "/yassir-portfolio/work12.jpg" }
+  { id: 4, url: "/yassir-portfolio/PLANE.jpeg" },
+  { id: 5, url: "/yassir-portfolio/PLANE2.jpeg" },
+  { id: 6, url: "/yassir-portfolio/PLANE3.jpeg" },
+  { id: 7, url: "/yassir-portfolio/17.jpeg" },
+  { id: 8, url: "/yassir-portfolio/25.jpeg" },
+  { id: 9, url: "/yassir-portfolio/CAR1.jpeg" },
+  { id: 10, url: "/yassir-portfolio/DESERT1.jpeg" },
+  { id: 11, url: "/yassir-portfolio/SABIRI1.jpeg" },
+  { id: 12, url: "/yassir-portfolio/SATCAT.jpeg" }
 ];
 
 export default function Photography() {
