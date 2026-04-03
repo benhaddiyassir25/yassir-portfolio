@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { Volume2 } from "lucide-react";
+import { Volume2, FileText } from "lucide-react";
 import { useRef } from "react";
 
 export default function Hero() {
@@ -7,14 +7,17 @@ export default function Hero() {
 
   const playIntro = () => {
     if (!audioRef.current) {
-audioRef.current = new Audio('/yassir-portfolio/welcomeToPortfolio.mp3');    }
+      audioRef.current = new Audio('/yassir-portfolio/welcomeToPortfolio.mp3');
+    }
     
     audioRef.current.play().catch(error => {
       console.error("Audio playback failed:", error.message || error);
       if (error.name === 'NotAllowedError') {
         console.warn("Autoplay blocked: User interaction required.");
       } else if (error.name === 'NotFoundError') {
-console.error("Audio file not found at /yassir-portfolio/welcomeToPortfolio.mp3");    });
+        console.error("Audio file not found at /yassir-portfolio/welcomeToPortfolio.mp3");
+      }
+    });
   };
 
   return (
@@ -59,12 +62,24 @@ console.error("Audio file not found at /yassir-portfolio/welcomeToPortfolio.mp3"
           <Volume2 size={16} />
           Play Intro
         </button>
+
+        <a 
+          href="/yassir-portfolio/CV Yassir 1 copy.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
+        >
+          <FileText size={16} />
+          Download CV
+        </a>
+
         <a 
           href="#work" 
-          className="px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
+          className="px-8 py-3 border border-white/10 hover:border-white transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
         >
           View Work
         </a>
+
         <a 
           href="https://www.linkedin.com/in/yassir-benhaddi-79929a216/" 
           target="_blank" 
