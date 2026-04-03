@@ -64,7 +64,8 @@ export default function Hero() {
         </button>
 
         <a 
-          href="/yassir-portfolio/CV Yassir 1.pdf" 
+          href="/yassir-portfolio/public/CV Yassir 1.pdf" 
+  
           target="_blank" 
           rel="noopener noreferrer"
           className="flex items-center gap-2 px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
