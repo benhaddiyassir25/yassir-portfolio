@@ -10,14 +10,8 @@ export default function About() {
           viewport={{ once: true }}
           className="h-[350px] md:h-[500px] bg-gray-800 rounded-sm grayscale hover:grayscale-0 transition duration-700 overflow-hidden border border-white/10"
         >
-          <img 
-            src="https://i.postimg.cc/Wh92wZvk/1.jpg" 
-            alt="Yassir Benhaddi" 
-            loading="lazy"
-            decoding="async"
-            className="w-full h-full object-cover high-quality-img"
-            referrerPolicy="no-referrer"
-          />
+          <img src="/yassir-portfolio/yassir_about.jpg" alt="Yassir Benhaddi" className="w-full h-auto object-cover" />
+          
         </motion.div>
         
         <motion.div
