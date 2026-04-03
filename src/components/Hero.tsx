@@ -64,14 +64,16 @@ export default function Hero() {
         </button>
 
         <a 
-  href="/yassir-portfolio/CV_Yassir.pdf" 
-  target="_blank" 
-  rel="noopener noreferrer"
-  className="flex items-center gap-2 px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
->
-  <FileText size={16} />
-  Download CV
-</a>
+          href="/yassir-portfolio/CV_Yassir.pdf" 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className="flex items-center gap-2 px-8 py-3 border border-white hover:bg-white hover:text-black transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
+        >
+          <FileText size={16} />
+          Download CV
+        </a>
+
+        <a 
           href="#work" 
           className="px-8 py-3 border border-white/10 hover:border-white transition duration-300 text-xs md:text-sm uppercase tracking-widest text-center"
         >
