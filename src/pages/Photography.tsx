@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Camera } from "lucide-react";
 
 const photos = [
-  { id: 1, url: "/yassir-portfolio/JCRY.jpeg" },
+  { id: 1, url: "/yassir-portfolio/J1.jpeg" },
   { id: 2, url: "/yassir-portfolio/J2.jpeg" },
   { id: 3, url: "/yassir-portfolio/J3.jpeg" },
   { id: 4, url: "/yassir-portfolio/PLANE.jpeg" },
@@ -14,7 +14,10 @@ const photos = [
   { id: 9, url: "/yassir-portfolio/CAR1.jpeg" },
   { id: 10, url: "/yassir-portfolio/DESERT1.jpeg" },
   { id: 11, url: "/yassir-portfolio/SABIRI1.jpeg" },
-  { id: 12, url: "/yassir-portfolio/SATCAT.jpeg" }
+  { id: 12, url: "/yassir-portfolio/SATCAT.jpeg" },
+  { id: 13, url: "/yassir-portfolio/JGUN.jpeg" },
+  { id: 14, url: "/yassir-portfolio/CatPic.jpeg" },
+  { id: 15, url: "/yassir-portfolio/DESERT.jpeg" }
 ];
 
 export default function Photography() {
