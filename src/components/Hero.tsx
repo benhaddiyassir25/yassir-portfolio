@@ -64,7 +64,7 @@ export default function Hero() {
         </button>
 
         <a 
-          href="/yassir-portfolio/public/CV Yassir 1.pdf" 
+          href="/yassir-portfolio/public/ CV Yassir 1.pdf" 
   
           target="_blank" 
           rel="noopener noreferrer"
