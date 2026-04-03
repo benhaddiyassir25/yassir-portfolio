@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Camera } from "lucide-react";
 
 const photos = [
-  { id: 1, url: "/yassir-portfolio/J1.jpeg" },
+  { id: 1, url: "/yassir-portfolio/JCRY.jpeg" },
   { id: 2, url: "/yassir-portfolio/J2.jpeg" },
   { id: 3, url: "/yassir-portfolio/J3.jpeg" },
   { id: 4, url: "/yassir-portfolio/PLANE.jpeg" },
