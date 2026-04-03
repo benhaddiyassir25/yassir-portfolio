@@ -19,7 +19,7 @@ export default function Footer() {
         <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-12 md:mb-16 text-gray-400">
           <a href="mailto:benhaddiyassir@gmail.com" className="hover:text-white transition-colors text-sm md:text-base">Email</a>
           <a href="https://www.tiktok.com/@yassirbenhaddi" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors text-sm md:text-base">TikTok</a>
-          <a href="https://www.instagram.com/Yasser.mov/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors text-sm md:text-base">Instagram</a>
+          <a href="https://www.instagram.com/yassser.mp4/?hl=fr/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors text-sm md:text-base">Instagram</a>
           <a href="https://www.linkedin.com/in/yassir-benhaddi-79929a216/" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors text-sm md:text-base">LinkedIn</a>
         </div>
         <p className="text-xs text-gray-600 uppercase tracking-widest">
