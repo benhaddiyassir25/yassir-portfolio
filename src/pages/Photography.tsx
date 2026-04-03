@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 import { ArrowLeft, Camera } from "lucide-react";
 
 const photos = [
-  { id: 1, url: "https://i.postimg.cc/Wh92wZvk/1.jpg" },
-  { id: 2, url: "https://i.postimg.cc/svfjWctB/17.jpg" },
-  { id: 3, url: "https://i.postimg.cc/N5GsX4W2/4.jpg" },
-  { id: 4, url: "https://i.postimg.cc/SJQS9rwc/BW-Soft-contrast.jpg" },
-  { id: 5, url: "https://i.postimg.cc/Yjz2jVy0/Cat-Pic.jpg" },
-  { id: 6, url: "https://i.postimg.cc/CdsMdt6h/Desert-pic-2.jpg" },
-  { id: 7, url: "https://i.postimg.cc/svnV4Wrq/high-saturation.jpg" },
-  { id: 8, url: "https://i.postimg.cc/w179fBxq/IMG-0844.avif" },
-  { id: 9, url: "https://i.postimg.cc/z3FD3MPD/IMG-0849-2.avif" },
-  { id: 10, url: "https://i.postimg.cc/Lh34h7QG/IMG-0855-2.avif" },
-  { id: 11, url: "https://i.postimg.cc/bsYynTKx/IMG-4489-2.avif" },
-  { id: 12, url: "https://i.postimg.cc/237j3JXY/IMG-4553-2.avif" }
+  { id: 1, url: "/yassir-portfolio/J1.jpeg" },
+  { id: 2, url: "/yassir-portfolio/J2.jpeg" },
+  { id: 3, url: "/yassir-portfolio/J3.jpeg" },
+  { id: 4, url: "/yassir-portfolio/PLANE.jpg" },
+  { id: 5, url: "/yassir-portfolio/PLANE2.jpg" },
+  { id: 6, url: "/yassir-portfolio/PLANE3.jpg" },
+  { id: 7, url: "/yassir-portfolio/4.jpeg" },
+  { id: 8, url: "/yassir-portfolio/17.jpeg" },
+  { id: 9, url: "/yassir-portfolio/CAR1.jpg" },
+  { id: 10, url: "/yassir-portfolio/work10.jpg" },
+  { id: 11, url: "/yassir-portfolio/work11.jpg" },
+  { id: 12, url: "/yassir-portfolio/work12.jpg" }
 ];
 
 export default function Photography() {
